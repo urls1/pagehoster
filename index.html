@@ -8,27 +8,6 @@
   </head>
   <body>
 
-    <div id="navbar">
-    <ul>
-    <a href="/">
-      <li>
-        <div id="block">
-          <u>URLS</u>
-        </div>
-      </li>    
-    </a>
-
-      <a
-      :href="item.href"
-      :data-smallsize="item.smallSize" 
-      v-for="item of items">
-      <li
-      :class="item.button ? 'button' : ''"
-      :style="item.bold ? 'font-weight: 500' : ''"><p>{{ item.text }}</p></li>
-      </a>
-    </ul>
-  </div>`,
-});
     <div>
       <div>
         <span>Source</span>
