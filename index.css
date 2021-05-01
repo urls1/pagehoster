@@ -82,7 +82,7 @@ body {
 #navbar,
 #footer {
   background: #21bcff;
-  height: calc(var(--navbarHeight) / 2);
+  height: 30px;
   position: absolute;
   width: 100%;
   display: flex;
